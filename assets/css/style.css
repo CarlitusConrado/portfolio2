@@ -1,0 +1,764 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: fixed;
+    /* Alterado para fixed */
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* Certifique-se de que está atrás de outros elementos */
+}
+
+.nav-bar {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.logo {
+    .logo {
+        display: flex;
+        align-items: center;
+        max-width: 100px; /* Define um tamanho máximo para a logo */
+        height: auto;
+    }
+   
+    
+}
+
+
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.login-button button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px 50px;
+    background-color: #0187a7;
+}
+
+.login-button :hover{
+
+    background-color: #a200ff;
+}
+
+.login-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    
+    /* Adicionado overflow */
+}
+
+/* particulas */
+
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Chakra Petch, sans-serif;
+}
+
+canvas {
+    display: flex;
+
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: fixed;
+    /* Alterado para fixed */
+    width: 100%;
+    height: 100%;
+    background-color: #00000000;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    z-index: -1;
+    /* Certifique-se de que está atrás de outros elementos */
+}
+
+/* ---- stats.js ---- */
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats, .count-particles {
+
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 10px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: rgb(202, 235, 12);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    
+    color: #ffffff;
+    transition: all 0.3s ease;
+    background-color: #00e1ff;
+    border-radius: 15px;
+    padding: 3px 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: -10px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.socialmedia a {
+
+    display: inline;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    margin: 0 6px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 27px;
+    flex-wrap: wrap-reverse
+}
+
+.socialmedia :hover {
+    display: inline;
+    color: #00e1ff;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    font-size: 37px;
+    flex-wrap: wrap-reverse
+}
+
+
+section.topo-do-site .txt-topo-site h1 span {
+    color: #00e1ff;
+    font-size: 84px;
+}
+
+section.topo-do-site .txt-topo-site p {
+    color: #fff;
+    font-size: 16px;
+    margin: 40px 0px;
+    
+}
+
+
+
+div.relative {
+    position: relative;
+
+}
+
+div.absolute {
+    position: absolute;
+
+}
+
+
+.topo-do-site .img-topo-site img {
+    font-size: 100%;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+
+
+
+@keyframes flutuar {
+    0% {
+
+        top: 0;
+    }
+
+    100% {
+
+        top: 30px;
+    }
+}
+
+/* texto animado */
+
+
+h1 {
+    color: #fff;
+    font-size: 85px;
+}
+
+span {
+    color: #a200ff;
+}
+
+/* responsivos */
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+    }
+    .nav-item {
+        display: none;
+    }
+    .login-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .mobile-menu .login-button {
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+
+
+
+
+
+
+/* estilo do sobre */
+
+
+.interface2 {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: center; /* Espaço entre os elementos */
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.img-sobre {
+    flex: 1; /* Ocupa o espaço disponível */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.txt-sobre-mim {
+    flex: 4;
+    padding: 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 100;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
+    text-align: justify; /* Alinha melhor o texto */
+    margin-right: 80px;
+}
+
+
+.txt-sobre-mim h2 {
+    margin-bottom: 20px; /* Adiciona um espaço de 20px abaixo do h2 */
+    font-weight: 500;
+}
+
+@keyframes glow {
+    0% { text-shadow: 0px 0px 10px #a200ff, 0px 0px 20px #00e1ff; }
+    50% { text-shadow: 0px 0px 15px #00e1ff, 0px 0px 25px #a200ff; }
+    100% { text-shadow: 0px 0px 10px #a200ff, 0px 0px 20px #00e1ff; }
+}
+
+@keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(3px); }
+    100% { transform: translateX(0); }
+}
+
+.txt-sobre-mim h2 {
+    font-size: 28px;
+    color: #a200ff;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* 🔥 Efeito ao passar o mouse */
+.txt-sobre-mim h2:hover {
+    animation: glow 1s infinite alternate, move 0.3s ease-in-out;
+    color: #ffffff;
+    letter-spacing: 2px; /* Aumenta o espaçamento entre as letras */
+}
+
+
+
+.txt-sobre-mim p {
+    margin-bottom: 20px; /* Adiciona um espaço de 20px abaixo do h2 */
+    font-weight: 80;
+    
+}
+
+
+.img-sobre img {
+    width: 260px; /* Garante que seja quadrada */
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover; /* Faz a imagem preencher o espaço corretamente */
+    display: block; /* Remove espaços extras ao redor */
+    margin: auto; /* Centraliza a imagem */
+}
+
+/* 🔥 Ao passar o mouse, o efeito intensifica um pouco */
+.img-sobre img {
+    transform: scale(1.2); /* Aumenta um pouco mais */
+    filter: drop-shadow(0px 0px 8px #00e1ff); /* Adiciona um leve brilho */
+}
+
+
+/* estilo cards skills */
+
+
+.skills-section {
+    
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skills-section h2 {
+    color: #a200ff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 120px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-item span {
+    font-size: 26px;
+    color: #c0c0c0;
+    font-weight: 100;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); } /* Aumenta levemente */
+    100% { transform: scale(1); }
+}
+
+.skill-item img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease-in-out;
+    animation: pulse 2s infinite ease-in-out; /* Animação contínua e suave */
+}
+
+/* 🔥 Ao passar o mouse, o efeito intensifica um pouco */
+.skill-item img:hover {
+    transform: scale(1.2); /* Aumenta um pouco mais */
+    filter: drop-shadow(0px 0px 8px #00e1ff); /* Adiciona um leve brilho */
+}
+
+
+
+
+
+@media screen and (min-width: 1280px) {
+    .home__header-arrowsDown {
+        right: 27%;
+        top: 40rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .home__header-arrowsDown {
+        right: 10%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .home__header-arrowsDown {
+        display: block;
+        position: absolute;
+        right: 30%;
+        bottom: 0;
+    }
+}
+
+.banner .inicial h1 {
+    
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 58px;
+    color: #00e1ff;
+    position: relative;
+    z-index: 3; /* Certifica-se de que o título esteja acima dos outros elementos */
+    margin-top: 30px;
+    padding: top 40px, 40px;
+    
+}
+
+.banner .slider {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 20%; /* Ajustado para não sobrepor o título */
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 20s linear infinite;
+    z-index: 2;
+}
+
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }
+    to {
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        translateZ(550px);
+}
+
+.banner .slider .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .content {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(1400px, 100vw);
+    height: max-content;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+
+.banner .content .model {
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczP9RnVHf4meZ0DxylnqtQM1KWhF3Xcf0jE0_uWVdnHfTxQ78fZM6gTY4iBljNCC5DgBPusZcT2EPcUuddRx_2qJ7-7Fx6O4fN5w4aEAk3jVuH_u80gxtfsV8sxW2Mode46H5D3DqVpsH_oWJQGEQvs=w633-h633-s-no-gm?authuser=1');
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index: 12;
+}
+
+@media screen and (max-width: 1023px) {
+    .banner .slider {
+        width: 160px;
+        height: 200px;
+        left: calc(50% - 80px);
+    }
+
+    .banner .slider .item {
+        transform: 
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(300px);
+    }
+
+    .banner .content h1 {
+        text-align: center;
+        width: 100%;
+        text-shadow: 0 10px 20px #000;
+        font-size: 7em;
+    }
+
+    .banner .content .author {
+        color: #fff;
+        padding: 20px;
+        text-shadow: 0 10px 20px #000;
+        z-index: 2;
+        max-width: unset;
+        width: 100%;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner .slider {
+        width: 100px;
+        height: 150px;
+        left: calc(50% - 50px);
+    }
+
+    .banner .slider .item {
+        transform: 
+            rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(180px);
+    }
+
+    .banner .content h1 {
+        font-size: 5em;
+        color: #fff;
+    }
+}
+
+/* ==== ESTILO DO FOOTER ==== */
+footer {
+    background: linear-gradient(135deg, #0c0013, #000e18);
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 0px; /* Para separar do conteúdo acima */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-logo img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-nav ul li {
+    display: inline;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    position: relative;
+}
+
+/* ==== Efeito Neon nos links ao passar o mouse ==== */
+.footer-nav ul li a:hover {
+    color: #00e1ff;
+    text-shadow: 0 0 8px #00e1ff;
+}
+
+/* ==== Ícones Sociais ==== */
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    font-size: 25px;
+    color: white;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+    display: inline-block;
+}
+
+/* ==== Animação sutil ao passar o mouse nos ícones ==== */
+.social-icons a:hover {
+    color: #00e1ff;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px #00e1ff;
+}
+
+/* ==== Texto do rodapé ==== */
+.footer-text {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+/* ==== Responsividade ==== */
+@media screen and (max-width: 768px) {
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+}
+
+
+
+
+/*** FEITO POR: CARLOS CONRADO ***/
