@@ -371,6 +371,7 @@ span {
     justify-content: center; /* Espaço entre os elementos */
     margin-top: 70px;
     margin-bottom: 70px;
+    margin-left:50px;
 }
 
 .img-sobre {
