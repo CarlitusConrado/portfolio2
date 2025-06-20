@@ -352,6 +352,7 @@ span {
     text-align: center;
     overflow: hidden;
     position: relative;
+    padding-bottom: 130px;
     
 }
 
@@ -385,7 +386,7 @@ span {
     font-weight: 100;
     line-height: 1.6; /* Aumenta o espaçamento entre as linhas */
     text-align: justify; /* Alinha melhor o texto */
-    margin-right: 80px;
+    margin: 70px;
 }
 
 
